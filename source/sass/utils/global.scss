@@ -1,0 +1,32 @@
+body {
+  @include font();
+  @include fields();
+  position: relative;
+  min-width: $mobile;
+  // max-width: $desktop;
+  margin: 0 auto;
+  font-family: $font;
+  background-color: $white;
+  color: $black;
+  overflow-x: hidden;
+
+  @media (min-width: $desktop) { // шаблон медиа-запроса desktop-first
+
+  }
+
+  @media (min-resolution: $extra) { // шаблон для фонового изображения на экранах с повышенной плотностью пикселей
+
+  }
+}
+
+body,
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

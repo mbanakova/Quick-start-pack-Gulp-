@@ -1,0 +1,11 @@
+@import "../sass/utils/vars.scss";
+@import "../sass/utils/mixins.scss";
+@import "../sass/utils/colors.scss";
+@import "../sass/utils/global.scss";
+@import "blocks/visually-hidden.scss";
+@import "blocks/header.scss";
+@import "blocks/footer.scss";
+
+h1 {
+  color: rgb(163, 8, 177); // проверка подключения стилей
+}
