@@ -1,5 +1,5 @@
 {
-  "name": "ibrush",
+  "name": "gulp-scss",
   "private": true,
   "description": "Тестовый макет",
   "devDependencies": {
