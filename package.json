@@ -1,7 +1,7 @@
 {
   "name": "gulp-scss",
   "private": true,
-  "description": "Тестовый макет",
+  "description": "Архив сборки для быстрого старта",
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/preset-env": "^7.12.16",
